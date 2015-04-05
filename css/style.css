@@ -482,3 +482,18 @@
 	{
 		text-align: center;
 	}
+
+/* Game */
+
+.score {
+    width: 100%;
+}
+.score th {
+    font-weight: 600;
+    text-align: left;
+    padding: 0.2em 0.5em;
+}
+.score td {
+    border: 1px solid #ccc;
+    padding: 0.2em 0.5em;
+}
