@@ -483,6 +483,11 @@
 		text-align: center;
 	}
 
+.fc-strong {
+    color:#df6267;
+    font-size:1.1em;
+}
+
 /* Game */
 
 .score {
@@ -496,4 +501,53 @@
 .score td {
     border: 1px solid #ccc;
     padding: 0.2em 0.5em;
+}
+
+/* Previous games */
+.game-list {
+    width: 60%;
+    margin: 0 auto;
+}
+
+.game-list-link:link,
+.game-list-link:visited {
+    display: block;
+    border: 1px solid #e5e5e5;
+    margin-bottom: 1em;
+    padding: 1em;
+    border-radius: 5px;
+    text-decoration: none;
+    line-height: 1.3em;
+}
+
+.game-list-link .game-details {
+    font-size: 0.9em;
+    color: #888;
+}
+
+.game-list-link:hover,
+.game-list-link:active {
+    background: #e5e5e5;
+}
+
+.results-table {
+    width: 100%;
+}
+
+.results-table th {
+    vertical-align: bottom;
+    border-bottom: 2px solid #ddd;
+    padding: 8px;
+    line-height: 1.42857143;
+    text-align: left;
+    font-weight: bold;
+}
+
+.results-table tbody th,
+.results-table tbody td {
+    padding: 8px;
+    line-height: 1.42857143;
+    vertical-align: top;
+    border-top: 1px solid #ddd;
+    border-bottom: 0;
 }
