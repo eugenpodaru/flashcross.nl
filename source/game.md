@@ -2,6 +2,7 @@
 layout: page
 nav: game
 title: The game
+lang: en
 
 ---
 
@@ -68,7 +69,7 @@ title: The game
             <p>
                 Score calculation usually takes about an hour after last team finishes. Awarding takes
                 place immediately after. Teams are allowed to take part in analyzing and defend their
-                photos. All results, maps and photos would be publishedg on the website.
+                photos. All results, maps and photos would be published on the website.
             </p>
 
 

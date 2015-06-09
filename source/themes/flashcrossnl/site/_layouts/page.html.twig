@@ -5,17 +5,46 @@
         <div class="container">
             <div id="header-wrapper" class="wrapper">
                 <div id="header">
-                    <a href="/" id="logo">
+                    <a href="{% if page.lang == "en" %}/{% elseif page.lang == "nl" %}/nl/{% endif %}" id="logo">
                         <h1><img src="/{{ theme_path('assets/images/flashcross.png') }}" alt="Flashcross NL" height="85" /></h1>
                     </a>
-                    <nav id="nav">
-                        <ul>
-                            <li class="{% if page.nav == "homepage" %}current_page_item{% endif %}"><a href="/">Home</a></li>
-                            <li class="{% if page.nav == "game" %}current_page_item{% endif %}"><a href="/game/">The game</a></li>
-                            <li class="{% if page.nav == "previous-games" %}current_page_item{% endif %}"><a href="/previous-games/">Previous games</a></li>
-                            <li class="{% if page.nav == "register" %}current_page_item{% endif %}"><a href="/register/">Register</a></li>
-                        </ul>
-                    </nav>
+                    {% if page.lang == "en" %}
+                        <nav id="nav">
+                            <ul>
+                                <li class="{% if page.nav == "homepage" %}current_page_item{% endif %}"><a href="/">Home</a></li>
+                                <li class="{% if page.nav == "game" %}current_page_item{% endif %}"><a href="/game/">The game</a></li>
+                                <li class="{% if page.nav == "previous-games" %}current_page_item{% endif %}"><a href="/previous-games/">Previous games</a></li>
+                                <li class="{% if page.nav == "register" %}current_page_item{% endif %}"><a href="/register/">Register</a></li>
+                                {% if page.nav == "homepage" %}
+                                    <li><a href="/nl/" title="Bekijk deze site in het Nederlands"><img src="/{{ theme_path('assets/images/dutch.svg') }}" alt="Nederlands" width="30" /></a></li>
+                                {% elseif page.nav == "game" %}
+                                    <li><a href="/nl/spel/" title="Bekijk deze site in het Nederlands"><img src="/{{ theme_path('assets/images/dutch.svg') }}" alt="Nederlands" width="30" /></a></li>
+                                {% elseif page.nav == "previous-games" %}
+                                    <li><a href="/nl/vorige-spellen/" title="Bekijk deze site in het Nederlands"><img src="/{{ theme_path('assets/images/dutch.svg') }}" alt="Nederlands" width="30" /></a></li>
+                                {% elseif page.nav == "register" %}
+                                    <li><a href="/nl/registreren/" title="Bekijk deze site in het Nederlands"><img src="/{{ theme_path('assets/images/dutch.svg') }}" alt="Nederlands" width="30" /></a></li>
+                                {% endif %}
+                            </ul>
+                        </nav>
+                    {% elseif page.lang == "nl" %}
+                        <nav id="nav">
+                            <ul>
+                                <li class="{% if page.nav == "homepage" %}current_page_item{% endif %}"><a href="/nl/">Home</a></li>
+                                <li class="{% if page.nav == "game" %}current_page_item{% endif %}"><a href="/nl/spel/">Het spel</a></li>
+                                <li class="{% if page.nav == "previous-games" %}current_page_item{% endif %}"><a href="/nl/vorige-spellen/">Vorige spellen</a></li>
+                                <li class="{% if page.nav == "register" %}current_page_item{% endif %}"><a href="/nl/registreren/">Registeren</a></li>
+                                {% if page.nav == "homepage" %}
+                                    <li><a href="/" title="View this site in English"><img src="/{{ theme_path('assets/images/english.svg') }}" alt="English" width="30" /></a></li>
+                                {% elseif page.nav == "game" %}
+                                    <li><a href="/game/" title="View this site in English"><img src="/{{ theme_path('assets/images/english.svg') }}" alt="English" width="30" /></a></li>
+                                {% elseif page.nav == "previous-games" %}
+                                    <li><a href="/previous-games/" title="View this site in English"><img src="/{{ theme_path('assets/images/english.svg') }}" alt="English" width="30" /></a></li>
+                                {% elseif page.nav == "register" %}
+                                    <li><a href="/register/" title="View this site in English"><img src="/{{ theme_path('assets/images/english.svg') }}" alt="English" width="30" /></a></li>
+                                {% endif %}
+                            </ul>
+                        </nav>
+                    {% endif %}
                 </div>
             </div>
             <div class="wrapper">
@@ -25,7 +54,7 @@
                 <section id="footer">
                     <ul class="contact">
                         <li><a href="https://twitter.com/flashcrossnl" class="icon fa-twitter"><span>Twitter</span></a></li>
-                        <li><a href="mailto:hello@flashcross.nl" class="icon fa-envelope"><span>Email</span></a></li>
+                        <li><a href="mailto:hello@flashcross.nl" class="icon fa-envelope"><span>E-mail</span></a></li>
                     </ul>
                 </section>
                 <div id="copyright">

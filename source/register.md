@@ -2,6 +2,7 @@
 layout: page
 nav: register
 title: Register
+lang: en
 
 ---
 

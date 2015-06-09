@@ -1,6 +1,7 @@
 ---
 layout: home
 nav: homepage
+lang: en
 
 ---
 

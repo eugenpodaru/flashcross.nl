@@ -1,5 +1,5 @@
 <!DOCTYPE HTML>
-<html>
+<html lang="{{ page.lang }}">
     <head>
         <title>
             {% if page.title is not empty %}
@@ -9,8 +9,13 @@
         </title>
         <meta charset="utf-8">
         <meta http-equiv="content-type" content="text/html; charset=utf-8" />
-        <meta name="description" content="A game for those who love adventures, outdoor and puzzles" />
-        <meta name="keywords" content="cycling, orienteering, puzzling, photography" />
+        {% if page.lang == "en" %}
+            <meta name="description" content="A game for those who love adventures, outdoor and puzzles" />
+            <meta name="keywords" content="cycling, orienteering, puzzling, photography" />
+        {% elseif page.lang == "nl" %}
+            <meta name="description" content="Een uitdagend, nieuw buitenspel voor liefhebbers van fietsen, fotograferen en de natuur." />
+            <meta name="keywords" content="fietsen, fotograferen, natuur, buitenspel" />
+        {% endif %}
         <!--[if lte IE 8]><script src="/{{ theme_path('assets/css/ie/html5shiv.js') }}"></script><![endif]-->
         <script src="/{{ theme_path('assets/js/jquery.min.js') }}"></script>
         <script src="/{{ theme_path('assets/js/jquery.dropotron.min.js') }}"></script>
