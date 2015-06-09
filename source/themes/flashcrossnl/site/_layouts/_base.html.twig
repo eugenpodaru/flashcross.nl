@@ -1,0 +1,31 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>
+            {% if page.title is not empty %}
+                {{ page.title }} &mdash;
+            {% endif %}
+            {{ site.title }}
+        </title>
+        <meta charset="utf-8">
+        <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+        <meta name="description" content="A game for those who love adventures, outdoor and puzzles" />
+        <meta name="keywords" content="cycling, orienteering, puzzling, photography" />
+        <!--[if lte IE 8]><script src="/{{ theme_path('assets/css/ie/html5shiv.js') }}"></script><![endif]-->
+        <script src="/{{ theme_path('assets/js/jquery.min.js') }}"></script>
+        <script src="/{{ theme_path('assets/js/jquery.dropotron.min.js') }}"></script>
+        <script src="/{{ theme_path('assets/js/jquery.selectorr.min.js') }}"></script>
+        <script src="/{{ theme_path('assets/js/jquery.poptrox.min.js') }}"></script>
+        <script src="/{{ theme_path('assets/js/skel.min.js') }}"></script>
+        <script src="/{{ theme_path('assets/js/skel-layers.min.js') }}"></script>
+        <script src="/{{ theme_path('assets/js/init.js') }}"></script>
+        <script>init(jQuery, "/{{ theme_path('assets/') }}");</script>
+        <noscript>
+            <link rel="stylesheet" href="/{{ theme_path('assets/css/skel.css') }}" />
+            <link rel="stylesheet" href="/{{ theme_path('assets/css/style.css') }}" />
+            <link rel="stylesheet" href="/{{ theme_path('assets/css/style-desktop.css') }}" />
+        </noscript>
+        <!--[if lte IE 8]><link rel="stylesheet" href="/{{ theme_path('assets/css/ie/v8.css') }}" /><![endif]-->
+    </head>
+    {% block body %}{% endblock %}
+</html>

@@ -1,0 +1,291 @@
+---
+layout: page
+nav: game
+title: The game
+
+---
+
+
+<div class="row 200%">
+    <div id="sidebar" class="4u">
+        <section>
+            <ul class="style1">
+                <li><a href="#how-does-it-work">How does it work?</a></li>
+                <li><a href="#what-do-you-need-to-take-part">What do you need to take part?</a></li>
+                <li><a href="#how-are-photos-judged">How are photos judged?</a></li>
+                <li><a href="#how-is-the-score-calculated">How is the score calculated?</a></li>
+                <li><a href="#are-there-any-camera-requirements">Are there any camera requirements?</a></li>
+                <li><a href="#how-should-photos-be-submitted">How should photos be submitted?</a></li>
+                <li><a href="#where-does-flashcross-come-from">Where does Flashcross come from?</a></li>
+            </ul>
+        </section>
+    </div>
+    <div id="content" class="8u important(collapse)">
+        <header>
+            <h2>The game</h2>
+        </header>
+        <article>
+            <p>
+                A Flashcross game is a mixture of puzzles, cycling, and photography. The objective of the
+                game is to cycle to various locations, and re-make photos that have been taken at those
+                locations as accurately as possible.
+            </p>
+            <p>
+                A Flashcross game is played with teams consisting of two people. A typical game takes 4
+                hours, and has around 15 locations to re-make photos at. Visiting a location and
+                re-making a photo successfully will give you points. The team who gets the most points
+                within the allotted time, wins.
+            </p>
+
+
+            <h3><a name="how-does-it-work">How does it work?</a></h3>
+            <p>
+                At the start of the game all teams are given a map with marked locations. They are
+                also given as many assignments; one for each location on the map.
+            </p>
+            <p>
+                Each assignment consists of four photos: one main "location" photo and three bonus
+                "puzzle" photos (<a href="http://flashcross.org/gal/main.php?g2_itemId=251953" target="_blank">examples</a>).
+                When a team arrives at the location, the team should start with re-making the main
+                photo. The main photo has to include one of the team members and both bicycles to prove
+                that they've actually visited the location.
+            </p>
+            <p>
+                The puzzle photos are hidden within approximately 50 meters of where the photographer is
+                standing while taking the main photo. If a team doesn't reproduce the main photo first,
+                they will not get any points for the puzzle photos.
+            </p>
+            <p>
+                Each team can decide for themselves the route and in which order they want to visit the
+                locations. It's not possible to visit all locations.
+            </p>
+            <p>
+                When a team arrives back at the start/finish location, they hand over their photos to
+                the organizers, who then note down the return time and analyze the team's photos
+                comparing them to the assignments. Once all teams have returned, the scores are
+                calculated and the winners are announced.
+            </p>
+            <p>
+                Score calculation usually takes about an hour after last team finishes. Awarding takes
+                place immediately after. Teams are allowed to take part in analyzing and defend their
+                photos. All results, maps and photos would be publishedg on the website.
+            </p>
+
+
+            <h3><a name="what-do-you-need-to-take-part">What do you need to take part?</a></h3>
+            <ul style="margin-left:2em;list-style-type:disc;">
+                <li>A bicycle</li>
+                <li>A friend with another bicycle</li>
+                <li>A camera (or a phone with a camera)</li>
+                <li>A bicycle lock (recommended)</li>
+                <li>To <a href="register.html">register here</a></li>
+                <li>Pay a small fee of 10 euro</li>
+            </ul>
+
+
+            <h3><a name="how-are-photos-judged">How are photos judged?</a></h3>
+            <p>
+                In order for a photo to give any points, it needs to match the assignment photo as
+                closely as possible. This means that the photo needs to be taken of the same spot,
+                with the same angle, the same distance and of the same object. :)
+            </p>
+            <p>
+                If a photo does not match the above requirements, it will not be counted towards the
+                final score.
+            </p>
+            <p>
+                There are two types of photos; subject photos and foreshortening photos. The type of
+                photo is always marked on the assignment with either an "S" or an "F" in the top left
+                corner.
+            </p>
+            <h4 style="margin-bottom:1em">
+                <strong>Subject photos</strong>
+            </h4>
+            <p>
+                You need to find and take a photo of an object. What exactly you have to get is obvious
+                from the assignment photo. Foreshortening, cropping and a little shift of
+                focus are not critical. The most important is to find the correct subject, the exact
+                thing or view that is in the assignment photo (from several similar subjects).
+            </p>
+            <div class="row">
+                <div class="6u">
+                    Original assignment photo
+                </div>
+                <div class="6u">
+                    <img src="/{{ theme_path('assets/images/examples/example-1-assignment.jpg') }}"/>
+                </div>
+            </div>
+            <div class="row">
+                <div class="6u">
+                    <p>Photo which matches assignment</p>
+                </div>
+                <div class="6u">
+                    <img src="/{{ theme_path('assets/images/examples/example-1-good.jpg') }}"/>
+                </div>
+            </div>
+            <div class="row">
+                <div class="6u">
+                    <p>
+                        Photo which does not match the assignment. Looking at the smaller details of
+                        an object, we can see that this is a different object than is in the
+                        assignment photo. Even if the sign looks very much alike, the assignment and
+                        submitted photos are not identical.
+                    </p>
+                </div>
+                <div class="6u">
+                    <img src="/{{ theme_path('assets/images/examples/example-1-bad.jpg') }}"/>
+                </div>
+            </div>
+            <h4 style="margin-bottom:1em;margin-top:1.5em;">
+                <strong>Foreshortening photos</strong>
+            </h4>
+            <p>
+                You need to study the assignment for its smallest details, pay attention
+                to the foreground as well as to the background. The photo should be taken from the exact
+                same spot and in the same direction. The composition should be the same as well. Shifting
+                the borders a little bit will not affect it passing the criteria. Shift of focus from
+                foreground to background doesn't matter.
+            </p>
+            <div class="row">
+                <div class="6u">
+                    Original assignment photo
+                </div>
+                <div class="6u">
+                    <img src="/{{ theme_path('assets/images/examples/example-2-assignment.jpg') }}"/>
+                </div>
+            </div>
+            <div class="row">
+                <div class="6u">
+                    <p>
+                        Photo which matches the assignment. The picture is shifted a little bit compared
+                        to the original assignment, but the distance and direction of the shot are
+                        correct.
+                    </p>
+                </div>
+                <div class="6u">
+                    <img src="/{{ theme_path('assets/images/examples/example-2-good.jpg') }}"/>
+                </div>
+            </div>
+            <div class="row">
+                <div class="6u">
+                    <p>
+                        Photo which does not match the assignment. The object is found and is
+                        photographed partially; however the point where the photo is taken from and the
+                        foreshortening are completely different from the original assignment photo.
+                    </p>
+                </div>
+                <div class="6u">
+                    <img src="/{{ theme_path('assets/images/examples/example-2-bad.jpg') }}"/>
+                </div>
+            </div>
+
+
+            <h3><a name="how-is-the-score-calculated">How is the score calculated?</a></h3>
+            <p>
+                For each successfully re-made photo you will receive points. The amount of points
+                depends on how many other teams have successfully made the same photo. The less teams
+                have made a photo, the more points it is worth.
+            </p>
+            <p>
+                The points are allocated as follows:
+            </p>
+            <table class="score">
+                <tr>
+                    <th>Amount of teams who made the same photo</th>
+                    <th>Amount of points the photo is worth</th>
+                </tr>
+                <tr>
+                    <td>1 team</td>
+                    <td>10 points</td>
+                </tr>
+                <tr>
+                    <td>2 teams</td>
+                    <td>8 points</td>
+                </tr>
+                <tr>
+                    <td>3 teams</td>
+                    <td>5 points</td>
+                </tr>
+                <tr>
+                    <td>from 3 to 20% of all teams</td>
+                    <td>4 points</td>
+                </tr>
+                <tr>
+                    <td>from 20-30% of all teams</td>
+                    <td>3 points</td>
+                </tr>
+                <tr>
+                    <td>from 30-50% of all teams</td>
+                    <td>2 points</td>
+                </tr>
+                <tr>
+                    <td>from 50-100% of all teams</td>
+                    <td>1 point</td>
+                </tr>
+            </table>
+            <p>
+                Only teams which arrive no later than 50 minutes after the control finish time will be
+                taken into account.
+            </p>
+            <p>
+                The amount of points is also affected by the time you arrive back at the finish. For
+                each minute you are later than the control finish time, 2% is deducted from your total score.
+            </p>
+
+
+            <h3><a name="are-there-any-camera-requirements">Are there any camera requirements?</a></h3>
+            <p>
+                You can use whatever camera you want, as long as you are able to provide the photos
+                digitally the moment you finish. We recommend using a smartphone or camera with SD card.
+            </p>
+            <p>
+                Please make sure the photos from your device can be transferred to a computer. If your
+                phone cannot be connected to our computer, or we cannot read the photos from the camera,
+                they don't count and the team is disqualified. Please note, that we would take all the
+                photos from your device for analyzing. So take care not to have photos with private
+                content. Clean your card before the event.
+            </p>
+
+
+            <h3><a name="how-should-photos-be-submitted">How should photos be submitted?</a></h3>
+            <p>
+                Photos must be submitted as soon as a team finishes. They must be submitted in one of
+                the following ways.
+            </p>
+
+            <h4 style="margin-bottom:1em;margin-top:1.5em;">
+                <strong>Connecting your phone</strong>
+            </h4>
+            <p>
+                We will have software ready to download photos from your phone to our computer. For
+                Android phones we will use the regular
+                <a href="https://www.android.com/filetransfer/">Android File Transfer</a> program. For
+                iPhones we will use the regular OS X Image Capture program. Other types of phones are
+                not supported. You are required to bring your own USB connector cable.
+            </p>
+
+            <h4 style="margin-bottom:1em;margin-top:1.5em;">
+                <strong>SD card</strong>
+            </h4>
+            <p>
+                You can supply us with an SD card, a miniSD card, or a microSD card which contains the
+                photos. This will enable you to use any camera which stores photos on an SD card.
+            </p>
+
+
+            <h3><a name="where-does-flashcross-come-from">Where does Flashcross come from?</a></h3>
+            <p>
+                Flashcross comes from Kharkiv, Ukraine. It was created by a group of friends who hated
+                sitting on sofas but loved cycling, puzzles, and adventure.
+            </p>
+            <p>
+                The first event was organized in 2006 as a joke for their friends, with only 5 teams
+                taking part. These days the event is hugely popular in Ukraine and Russia. There are
+                about 1500 participants in 9 cities in Ukraine, Crimea, and Russia.
+            </p>
+            <p>
+                Flashcross.nl is the first attempt to bring the game outside its home region.
+            </p>
+        </article>
+    </div>
+</div>

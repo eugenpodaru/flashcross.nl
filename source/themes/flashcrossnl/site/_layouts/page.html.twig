@@ -1,0 +1,37 @@
+{% extends "_base.html.twig" %}
+
+{% block body %}
+    <body class="no-sidebar {{ page.nav }}">
+        <div class="container">
+            <div id="header-wrapper" class="wrapper">
+                <div id="header">
+                    <a href="/" id="logo">
+                        <h1><img src="/{{ theme_path('assets/images/flashcross.png') }}" alt="Flashcross NL" height="85" /></h1>
+                    </a>
+                    <nav id="nav">
+                        <ul>
+                            <li class="{% if page.nav == "homepage" %}current_page_item{% endif %}"><a href="/">Home</a></li>
+                            <li class="{% if page.nav == "game" %}current_page_item{% endif %}"><a href="/game/">The game</a></li>
+                            <li class="{% if page.nav == "previous-games" %}current_page_item{% endif %}"><a href="/previous-games/">Previous games</a></li>
+                            <li class="{% if page.nav == "register" %}current_page_item{% endif %}"><a href="/register/">Register</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+            <div class="wrapper">
+                {% block content %}{% endblock %}
+            </div>
+            <div id="footer-wrapper" class="wrapper">
+                <section id="footer">
+                    <ul class="contact">
+                        <li><a href="https://twitter.com/flashcrossnl" class="icon fa-twitter"><span>Twitter</span></a></li>
+                        <li><a href="mailto:hello@flashcross.nl" class="icon fa-envelope"><span>Email</span></a></li>
+                    </ul>
+                </section>
+                <div id="copyright">
+                    &copy; 2015 Flashcross.nl
+                </div>
+            </div>
+        </div>
+    </body>
+{% endblock %}
