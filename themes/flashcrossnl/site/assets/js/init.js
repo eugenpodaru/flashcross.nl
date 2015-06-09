@@ -4,15 +4,15 @@
 	License: pixelarity.com/license
 */
 
-(function($) {
+var init = function($, assetPath) {
 
 	skel.init({
 		reset: 'full',
 		breakpoints: {
-			'global':	{ range: '*', href: 'css/style.css' },
-			'desktop':	{ range: '737-', href: 'css/style-desktop.css', containers: 1200, grid: { gutters: 25 } },
-			'1000px':	{ range: '737-1200', href: 'css/style-1000px.css', containers: 1000, grid: { gutters: 20 }, viewport: { width: 1080 } },
-			'mobile':	{ range: '-736', href: 'css/style-mobile.css', containers: '100%!', grid: { collapse: true, gutters: 15 }, viewport: { scalable: false } }
+			'global':	{ range: '*', href: assetPath + 'css/style.css' },
+			'desktop':	{ range: '737-', href:assetPath +  'css/style-desktop.css', containers: 1200, grid: { gutters: 25 } },
+			'1000px':	{ range: '737-1200', href: assetPath + 'css/style-1000px.css', containers: 1000, grid: { gutters: 20 }, viewport: { width: 1080 } },
+			'mobile':	{ range: '-736', href: assetPath + 'css/style-mobile.css', containers: '100%!', grid: { collapse: true, gutters: 15 }, viewport: { scalable: false } }
 		},
 		plugins: {
 			layers: {
@@ -125,4 +125,4 @@
 
 	});
 
-})(jQuery);
+};
