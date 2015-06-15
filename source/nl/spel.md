@@ -1,0 +1,236 @@
+---
+layout: page
+nav: game
+title: Het spel
+lang: nl
+
+---
+
+
+<div class="row 200%">
+    <div id="sidebar" class="4u">
+        <section>
+            <ul class="style1">
+                <li><a href="#hoe-werkt-het">Hoe werkt het?</a></li>
+                <li><a href="#wat-heb-je-nodig">Wat heb je nodig?</a></li>
+                <li><a href="#hoe-worden-de-fotos-beoordeeld">Hoe worden de foto's beoordeeld?</a></li>
+                <li><a href="#hoe-is-de-puntentelling">Hoe is de puntentelling?</a></li>
+                <li><a href="#zijn-er-camera-eisen">Zijn er camera-eisen?</a></li>
+                <li><a href="#hoe-moeten-de-fotos-worden-aangeleverd">Hoe moeten de foto's worden aangeleverd?</a></li>
+                <li><a href="#waar-komt-flashcross-vandaan">Waar komt Flashcross vandaan?</a></li>
+            </ul>
+        </section>
+    </div>
+    <div id="content" class="8u important(collapse)">
+        <header>
+            <h2>Het spel</h2>
+        </header>
+        <article>
+            <p>
+                Flashcross is een nieuw outdoorspel; een mix van fietsen, oriënteren en fotograferen. 
+                Het doel van het spel is om verschillende locaties te vinden. Ter plaatse reproduceer je zo nauwkeurig mogelijk foto’s.
+            </p>
+            <p>
+                Het spel wordt gespeeld door teams van twee personen. Tijdens het spel heb je 4 uur de tijd om foto’s na te maken. Een bezoek aan een locatie en het namaken van een foto levert je punten op. Het team dat de meeste punten binnen de toegestane tijd verzamelt, wint.
+            </p>
+
+
+            <h3><a name="hoe-werkt-het">Hoe werkt het?</a></h3>
+            <p>
+                Aan het begin van het spel krijgen alle teams een kaart met gemarkeerde locaties.
+            </p>
+            <p>
+                Elke opdracht bestaat uit vier foto's; één overzichtsfoto en drie puzzelfoto’s. (<a href="http://flashcross.org/gal/main.php?g2_itemId=251953" target="_blank">voorbeelden</a>).
+                Wanneer je een locatie gevonden hebt, maak je de overzichtsfoto van de locatie na. Op deze reproductie moet een van de teamleden staan, samen met beide fietsen. Dit als bewijs dat jullie samen daadwerkelijk de locatie hebben bezocht.
+            </p>
+            <p>
+                De puzzelfoto's zijn verborgen binnen een straal van 50 meter van waar de fotograaf staat tijdens het nemen van de overzichtsfoto. Als je als team de overzichtsfoto overslaat, krijg je ook geen punten voor de puzzelfoto’s van deze locatie. 
+            </p>
+            <p>
+                Als team kies je zelf de route en de volgorde van de locaties. Het is niet mogelijk om alle locaties te bezoeken.
+            </p>
+            <p>
+                Uiterlijk om 14.00 uur meld je je bij de start/finish locatie en overhandig je de foto's aan de organisatie. Je tijd wordt genoteerd en je foto’s worden geanalyseerd en vergeleken met de opdrachten. Als alle teams gefinished zijn en de punten verdeeld, wordt duidelijk wie de winnaars zijn.
+            </p>
+            <p>
+                De puntentelling duurt ongeveer een uur en de winnaars maken we direct daarna bekend. De teams mogen meekijken met het analyseren van de foto’s en zo -indien nodig- hun foto’s verdedigen. De resultaten worden gepubliceerd op de website.
+            </p>
+
+
+            <h3><a name="wat-heb-je-nodig">Wat heb je nodig?</a></h3>
+            <ul style="margin-left:2em;list-style-type:disc;">
+                <li>Een fiets</li>
+                <li>Een vriend met een fiets</li>
+                <li>Camera (of een telefoon met een camera)</li>
+                <li>Fietsslot (aanbevolen)</li>
+                <li><a href="/nl/registratie/">Registratie via deze website</a></li>
+                <li>Een kleine vergoeding van € 10 om de kosten te dekken</li>
+            </ul>
+
+
+            <h3><a name="hoe-worden-de-fotos-beoordeeld">Hoe worden de foto's beoordeeld?</a></h3>
+            <p>
+                Om punten te kunnen geven aan een ​foto, moet ten eerste de originele overzichtsfoto zo goed mogelijk benaderd zijn. Dit betekent dat de foto moet zijn genomen vanuit dezelfde hoek, dezelfde afstand en van hetzelfde onderwerp.
+            </p>
+            <p>
+                Als een foto niet overeenkomt met de bovenstaande eisen, krijgt het geen punten.
+            </p>
+            <p>
+                Dan zijn er nog twee soorten puzzelfoto’s; foto’s van voorwerpen en foto’s van een detail of bepaalde compositie. De uitdaging zit ‘m dan in het technisch namaken van de foto. Het soort van de foto wordt altijd op de opdrachtfoto met ofwel een ‘V(oorwerp)’ of een ‘C(ompositie)’ in de linker bovenhoek gemarkeerd.
+            </p>
+            <h4 style="margin-bottom:1em">
+                <strong>Foto’s van voorwerpen</strong>
+            </h4>
+            <p>
+                Zoek het voorwerp en maak er een foto van. Wat je precies moet vastleggen wordt duidelijk uit de opdracht. Kleine verschuivingen van de focus of verkleining van beeld zijn hierbij toegestaan. Het belangrijkste is om het juiste voorwerp (of voorwerpen) te vinden als op de opdrachtfoto.
+            </p>
+            <div class="row">
+                <div class="6u">
+                    Opdrachtfoto
+                </div>
+                <div class="6u">
+                    <img src="/{{ theme_path('assets/images/examples/example-1-assignment.jpg') }}"/>
+                </div>
+            </div>
+            <div class="row">
+                <div class="6u">
+                    <p>Foto die overeenkomt met de opdrachtfoto</p>
+                </div>
+                <div class="6u">
+                    <img src="/{{ theme_path('assets/images/examples/example-1-good.jpg') }}"/>
+                </div>
+            </div>
+            <div class="row">
+                <div class="6u">
+                    <p>
+                        Foto die niet overeenkomt met de opdracht. Als je kijkt naar de details van het voorwerp, zie je dat dit een ander voorwerp dan is in de opdrachtfoto. De tekens lijken erg veel op elkaar maar de foto’s zijn niet identiek.
+                    </p>
+                </div>
+                <div class="6u">
+                    <img src="/{{ theme_path('assets/images/examples/example-1-bad.jpg') }}"/>
+                </div>
+            </div>
+            <h4 style="margin-bottom:1em;margin-top:1.5em;">
+                <strong>Compositiefoto</strong>
+            </h4>
+            <p>
+                Voor deze opdracht moet je de foto tot in haar kleinste detail bestuderen. Let op de voorgrond en de achtergrond. Je reproduceert de foto vanuit dezelfde plaats en in dezelfde richting. De compositie moet zo goed als hetzelfde zijn. Minimale verschuivingen hebben geen invloed op de puntentelling. Verschuiving van de focus van voorgrond tot achtergrond ook niet.
+            </p>
+            <div class="row">
+                <div class="6u">
+                    Opdrachtfoto
+                </div>
+                <div class="6u">
+                    <img src="/{{ theme_path('assets/images/examples/example-2-assignment.jpg') }}"/>
+                </div>
+            </div>
+            <div class="row">
+                <div class="6u">
+                    <p>
+                        Foto die overeenkomt met de opdracht.  Het beeld is iets verschoven ten opzichte van de oorspronkelijke opdrachtfoto, maar de afstand en richting van de foto zijn juist.
+                    </p>
+                </div>
+                <div class="6u">
+                    <img src="/{{ theme_path('assets/images/examples/example-2-good.jpg') }}"/>
+                </div>
+            </div>
+            <div class="row">
+                <div class="6u">
+                    <p>
+                        Foto die niet overeenkomt met de opdracht. Het onderwerp is gevonden maar is gedeeltelijk gefotografeerd. Echter het punt waar de foto is genomen is verschillend van de oorspronkelijke foto.
+                    </p>
+                </div>
+                <div class="6u">
+                    <img src="/{{ theme_path('assets/images/examples/example-2-bad.jpg') }}"/>
+                </div>
+            </div>
+
+
+            <h3><a name="hoe-is-de-puntentelling">Hoe is de puntentelling?</a></h3>
+            <p>
+                Voor elk goed nagemaakte foto krijg je punten. Het aantal punten is afhankelijk van hoeveel andere teams met succes diezelfde foto hebben genomen. Hoe minder teams de foto hebben gemaakt, hoe meer punten worden toegekend.
+            </p>
+            <p>
+                De punten worden als volgt verdeeld:
+            </p>
+            <table class="score">
+                <tr>
+                    <th>Hoeveel teams hebben dezelfde foto gemaakt</th>
+                    <th>Hoeveel punten is de foto waard</th>
+                </tr>
+                <tr>
+                    <td>1 team</td>
+                    <td>10 punten</td>
+                </tr>
+                <tr>
+                    <td>2 teams</td>
+                    <td>8 punten</td>
+                </tr>
+                <tr>
+                    <td>3 teams</td>
+                    <td>5 punten</td>
+                </tr>
+                <tr>
+                    <td>> 3 teams tot 20% van alle teams</td>
+                    <td>4 punten</td>
+                </tr>
+                <tr>
+                    <td>20-30% van alle teams</td>
+                    <td>3 punten</td>
+                </tr>
+                <tr>
+                    <td>30-50% van alle teams</td>
+                    <td>2 punten</td>
+                </tr>
+                <tr>
+                    <td>50-100% van alle teams</td>
+                    <td>1 punten</td>
+                </tr>
+            </table>
+            <p>
+                De finishtijd is ook van belang. Iedere minuut die je later dan 14.00 uur binnen bent, heeft een mindering van 2% op je totale puntentelling als gevolg.
+            </p>
+
+
+            <h3><a name="zijn-er-camera-eisen">Zijn er camera-eisen?</a></h3>
+            <p>
+                Je mag iedere camera gebruiken die je wilt, zolang je maar in staat bent om de foto's direct na afloop digitaal aan te leveren. Wij raden aan een smartphone of camera met SD-kaart te gebruiken.
+            </p>
+            <p>
+                Zorg ervoor dat de foto's van je camera kunnen worden overgezet naar een computer. Als je telefoon niet kan worden aangesloten op onze computer, of we kunnen de foto’s niet ‘lezen’, dan tellen ze niet mee en wordt het team gediskwalificeerd. Houd er rekening mee dat we alle foto's van uw camera overnemen voor het analyseren. Maak je SD- kaartje dus voor het evenement leeg.
+            </p>
+
+
+            <h3><a name="hoe-moeten-de-fotos-worden-aangeleverd">Hoe moeten de foto's worden aangeleverd?</a></h3>
+            <p>
+                De foto's moeten zo snel mogelijk na het finishen aan de organisatie worden aangeleverd. Het aanleveren kan op een van de volgende manieren.
+            </p>
+
+            <h4 style="margin-bottom:1em;margin-top:1.5em;">
+                <strong>Het aansluiten van je telefoon</strong>
+            </h4>
+            <p>
+                We hebben software om je foto's te downloaden van je telefoon naar onze computer. Voor Android-telefoons hebben we <a href="https://www.android.com/filetransfer/">Android File Transfer</a>. Voor iPhones gebruiken we OS X Image Capture. Wanneer je een andere telefoon gebruikt, moet je jouw eigen USB-kabel meenemen.
+            </p>
+
+            <h4 style="margin-bottom:1em;margin-top:1.5em;">
+                <strong>Het overhandigen van je SD-kaart</strong>
+            </h4>
+            <p>
+                Je geeft ons je SD-kaart, je miniSD-kaart of je microSD-kaart, die de foto's bevat.
+            </p>
+
+
+            <h3><a name="waar-komt-flashcross-vandaan">Waar komt Flashcross vandaan?</a></h3>
+            <p>
+                Flashcross komt oorspronkelijk uit Kharkiv, Oekraïne. Het spel is opgericht door een groep vrienden die niet langer thuis op de bank wilden blijven zitten, maar die houden van fietsen, puzzelen en avontuur.
+            </p>
+            <p>
+                De allereerste Flashcross ooit werd in 2006 georganiseerd als grapje voor vrienden, met slechts 5 deelnemende teams. Vandaag de dag is het evenement enorm populair in Oekraïne en Rusland. Er doen tegenwoordig ongeveer 1500 deelnemers mee in 9 verschillende steden in Oekraïne, de Krim en Rusland.
+            </p>
+            <p>
+                Flashcross.nl is de eerste poging om het spel ook naar Nederland te brengen.
+            </p>
+        </article>
+    </div>
+</div>

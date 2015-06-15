@@ -1,0 +1,52 @@
+{% extends "_base.html.twig" %}
+
+{% block body %}
+    <body class="{{ page.nav }}">
+        <div class="container">
+            <div id="header-wrapper" class="wrapper">
+                <div id="header">
+                    <a href="{% if page.lang == "en" %}/{% elseif page.lang == "nl" %}/nl/{% endif %}" id="logo">
+                        <h1><img src="/{{ theme_path('assets/images/flashcross.png') }}" alt="Flashcross NL" width="507" style="max-width: 100%" /></h1>
+                    </a>
+                    {% if page.lang == "en" %}
+                        <h2>A game for those who love adventures, outdoor and puzzles</h2>
+                        <nav id="nav">
+                            <ul>
+                                <li class="{% if page.nav == "homepage" %}current_page_item{% endif %}"><a href="/">Home</a></li>
+                                <li class="{% if page.nav == "game" %}current_page_item{% endif %}"><a href="/game/">The game</a></li>
+                                <li class="{% if page.nav == "previous-games" %}current_page_item{% endif %}"><a href="/previous-games/">Previous games</a></li>
+                                <li class="{% if page.nav == "register" %}current_page_item{% endif %}"><a href="/register/">Register</a></li>
+                                <li><a href="/nl/" title="Bekijk deze site in het Nederlands"><img src="/{{ theme_path('assets/images/dutch.svg') }}" alt="Nederlands" width="30" /></a></li>
+                            </ul>
+                        </nav>
+                    {% elseif page.lang == "nl" %}
+                        <h2>Een uitdagend, nieuw buitenspel voor liefhebbers van fietsen, fotograferen en de natuur.</h2>
+                        <nav id="nav">
+                            <ul>
+                                <li class="{% if page.nav == "homepage" %}current_page_item{% endif %}"><a href="/nl/">Home</a></li>
+                                <li class="{% if page.nav == "game" %}current_page_item{% endif %}"><a href="/nl/spel/">Het spel</a></li>
+                                <li class="{% if page.nav == "previous-games" %}current_page_item{% endif %}"><a href="/nl/vorige-spellen/">Vorige spellen</a></li>
+                                <li class="{% if page.nav == "register" %}current_page_item{% endif %}"><a href="/nl/registreren/">Registeren</a></li>
+                                <li><a href="/" title="View this site in English"><img src="/{{ theme_path('assets/images/english.svg') }}" alt="English" width="30" /></a></li>
+                            </ul>
+                        </nav>
+                    {% endif %}
+                </div>
+            </div>
+
+            {% block content %}{% endblock %}
+
+            <div id="footer-wrapper" class="wrapper">
+                <section id="footer">
+                    <ul class="contact">
+                        <li><a href="https://twitter.com/flashcrossnl" class="icon fa-twitter"><span>Twitter</span></a></li>
+                        <li><a href="mailto:hello@flashcross.nl" class="icon fa-envelope"><span>E-mail</span></a></li>
+                    </ul>
+                </section>
+                <div id="copyright">
+                    &copy; 2015 Flashcross.nl
+                </div>
+            </div>
+        </div>
+    </body>
+{% endblock %}
